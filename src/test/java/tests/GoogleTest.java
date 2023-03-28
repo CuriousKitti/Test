@@ -14,19 +14,24 @@ public class GoogleTest {
 	@BeforeTest
 	public void setUp() 
 	{
-		System.setProperty("webdriver.chrome.driver", "/Users/snehadhande/eclipse-workspace/CucumberJava/src/test/resources/Drivers.chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/snehadhande/Downloads/chromedriver_mac_arm64/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.gooogle.com");
+		driver.get("https://demo.guru99.com/test/newtours/");
 		
 	}
 	
 	@Test
-	public void logotest() 
+	public void logintest() 
 	{
-		boolean logo = driver.findElement(By.id("hplogo")).isDisplayed();
-		Assert.assertTrue(logo);
+		driver.findElement(By.name("userName")).sendKeys("admin");
+		driver.findElement(By.name("password")).sendKeys("admin");
+		driver.findElement(By.name("submit")).click();
+		
+		boolean signoff = driver.findElement(By.linkText("SIGN-OFF")).isDisplayed();
+		Assert.assertTrue(signoff);
 	}
+	
 	
 	@AfterTest
 	public void teardown() {
