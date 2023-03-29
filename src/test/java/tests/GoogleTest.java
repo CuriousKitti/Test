@@ -14,7 +14,7 @@ public class GoogleTest {
 	@BeforeTest
 	public void setUp() 
 	{
-		System.setProperty("webdriver.chrome.driver", "/Users/snehadhande/Downloads/chromedriver_mac_arm64/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/snehadhande/Downloads/Software Download/chromedriver_mac_arm64/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demo.guru99.com/test/newtours/");
