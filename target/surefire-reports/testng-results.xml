@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-28T21:52:11 CDT" name="tests.GoogleTest" finished-at="2023-03-28T21:52:24 CDT" duration-ms="13532">
+  <suite started-at="2023-04-03T10:04:45 CDT" name="Surefire suite" finished-at="2023-04-03T10:04:49 CDT" duration-ms="3805">
     <groups>
     </groups>
-    <test started-at="2023-03-28T21:52:11 CDT" name="Command line test" finished-at="2023-03-28T21:52:24 CDT" duration-ms="13532">
+    <test started-at="2023-04-03T10:04:45 CDT" name="Surefire test" finished-at="2023-04-03T10:04:49 CDT" duration-ms="3805">
       <class name="tests.GoogleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GoogleTest@15de0b3c]" started-at="2023-03-28T21:52:11 CDT" name="setUp" finished-at="2023-03-28T21:52:21 CDT" duration-ms="10530" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GoogleTest@568bf312]" started-at="2023-04-03T10:04:45 CDT" name="setUp" finished-at="2023-04-03T10:04:48 CDT" duration-ms="2913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logintest()[pri:0, instance:tests.GoogleTest@15de0b3c]" started-at="2023-03-28T21:52:21 CDT" name="logintest" finished-at="2023-03-28T21:52:24 CDT" duration-ms="2820" status="PASS">
+        <test-method signature="logintest()[pri:0, instance:tests.GoogleTest@568bf312]" started-at="2023-04-03T10:04:48 CDT" name="logintest" finished-at="2023-04-03T10:04:49 CDT" duration-ms="758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.GoogleTest@15de0b3c]" started-at="2023-03-28T21:52:24 CDT" name="teardown" finished-at="2023-03-28T21:52:24 CDT" duration-ms="133" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.GoogleTest@568bf312]" started-at="2023-04-03T10:04:49 CDT" name="teardown" finished-at="2023-04-03T10:04:49 CDT" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- tests.GoogleTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- tests.GoogleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

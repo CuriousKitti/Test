@@ -32,6 +32,11 @@ public class GoogleTest {
 		Assert.assertTrue(signoff);
 	}
 	
+	@Test
+	public void logotest() {
+		System.out.println("logo is visible");
+	}
+	
 	
 	@AfterTest
 	public void teardown() {
